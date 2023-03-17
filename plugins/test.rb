@@ -1,5 +1,5 @@
 class Test < Danger::Plugin
-  def call
+  def run
     warn "This is a test"
   end
 end
